@@ -46,7 +46,7 @@ rails 开发记录
     rails new website 
     website 就出现框架目录
     最后 rails server  ,http://localhost:3000就可以看到网站了
-### 4.1注意镜像的问题
+#### 注意镜像的问题
      run bundle install 会很慢，要修改 rails产生的 gemfile镜像的source 
     切换到Rails的默认模板路径下，修改Gemfile文件的source:    
     默认目录如下     
