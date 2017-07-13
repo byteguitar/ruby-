@@ -6,6 +6,7 @@ ruby 开发记录
 ### 语法
     ![image text](https://raw.githubusercontent.com/byteguitar/ruby-/master/images/1041371_16.jpg)
 ### Test Unit
+    使用　require 'test/unit'
     assert(boolean, [msg])
     assert_equal (expected, actual, [msg])
     assert_not_equal (expected, actual, [msg])
