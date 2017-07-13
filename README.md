@@ -52,4 +52,7 @@ rails 开发记录
     默认目录如下     
     cd $rvm_path/gems/ruby-1.9.3-p194@rails32/gems/railties3.2.5/lib/rails/generators/rails/app/templates/
      注意版本号是有所不同的
-     
+####  gem源的设置
+      gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
+      注意https http, 淘宝的gem source 很多https,在ruby 2.3不行，但是2.4可以
+     
