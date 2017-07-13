@@ -4,7 +4,7 @@ ruby 开发记录
 ### 命令
     gem environment
 ### 语法
-    ![image](https://raw.githubusercontent.com/byteguitar/ruby-/master/images/1041371_16.jpg）
+    ![image text](https://raw.githubusercontent.com/byteguitar/ruby-/master/images/1041371_16.jpg）
 ### Test Unit
     assert(boolean, [msg])
     assert_equal (expected, actual, [msg])
