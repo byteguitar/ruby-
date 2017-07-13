@@ -21,10 +21,10 @@ ruby 开发记录
 rails 开发记录
 ===============
 ##  rails 安装默认 gem install rails 
-##　rails2.4.1 windows7安装问题
+##  rails2.4.1 windows7安装问题
     ruby2.4.1 msys32 是默认在安装程序里面安装的
     ruby2.4.1 +rails5.1.2 到最后rails new webiste d的时候出错，于是换成rails 2.3
-## rails2.3安装
+##  rails2.3安装
     官方说明
     The RubyInstaller Development Kit (DevKit) is a MSYS/MinGW based toolkit than enables you to build many of the native C/C++ extensions available for Ruby. 
     Starting with Ruby 2.4.0 it is replaced by the MSYS2 toolkit.
@@ -46,7 +46,7 @@ rails 开发记录
     rails new website 
     website 就出现框架目录
     最后 rails server  ,http://localhost:3000就可以看到网站了
-### 注意镜像的问题
+### 4.1注意镜像的问题
      run bundle install 会很慢，要修改 rails产生的 gemfile镜像的source 
     切换到Rails的默认模板路径下，修改Gemfile文件的source:    
     默认目录如下     
