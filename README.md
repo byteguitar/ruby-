@@ -81,3 +81,5 @@ rails 开发记录
     1. rails generate model articleid:integer title:string content:text 
         在modles目录下会有
     2. 执行命令修改数据库db:migrate RAILS_ENV=development
+##  ActiveRecord 使用
+##  视图渲染模板的选择
