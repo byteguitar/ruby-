@@ -84,4 +84,4 @@ rails 开发记录
 ##  ActiveRecord 使用
 ##  视图渲染模板的选择
 ### slim 模板
-   [Markdown](http://slim-lang.com/)
+    [Markdown](http://slim-lang.com/)
