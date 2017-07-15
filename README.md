@@ -76,7 +76,7 @@ rails 开发记录
       gem uninstall mysql2
       比如mysql2可以安装多个版本的包
 #### mysql2 github 
-     https://github.com/brianmario/mysql2
+     [Markdown](https://github.com/brianmario/mysql2）
 ### rails  数据库命令行
     1. rails generate model articleid:integer title:string content:text 
         在modles目录下会有
