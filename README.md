@@ -52,16 +52,8 @@ rails 开发记录
     默认目录如下     
     cd $rvm_path/gems/ruby-1.9.3-p194@rails32/gems/railties3.2.5/lib/rails/generators/rails/app/templates/
      注意版本号是有所不同的
-## 创建一个目录webiste
-    rails new website 
-    website 就出现框架目录
-    最后 rails server  ,http://localhost:3000就可以看到网站了
-### 注意镜像的问题
-     run bundle install 会很慢，要修改 rails产生的 gemfile镜像的source ，默认目录如下     
-    切换到Rails的默认模板路径下，修改Gemfile文件的source:    
-    cd $rvm_path/gems/ruby-1.9.3-p194@rails32/gems/railties3.2.5/lib/rails/generators/rails/app/templates/
-     注意版本号是有所不同的
-###  mysql2 的安装问题 ，搞死人
+
+## mysql2 的安装问题 ，搞死人
     
      当前使用 的是ruby2.3 ,gem install mysql 后，安装的mysql2版本load libmysql.dll总是出现错误，于是只有自己想办法编译一个 。
      1.下载了一个mysql-connector-c-noinstall-6.0.2-win32 的包，然后解压到 f:\code\railswebsite目录下面 
