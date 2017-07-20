@@ -1,4 +1,4 @@
-rails 5.1.2
+rails 5.1.2  bootstrap3 和jquery使用
 ======
 
 ## bootstrap3 install   
