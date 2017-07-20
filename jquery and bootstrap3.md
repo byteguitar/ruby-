@@ -18,5 +18,15 @@ rails 5.1.2
     
 
    
-turbolinks的理解
+asset pipelineks的理解
 =====
+## 
+      在 Rails 的早期版本中，所有静态资源文件都放在 public 文件夹的子文件夹中，例如 images、javascripts 和 stylesheets 子文件夹。
+        当 Rails 开始使用 Asset Pipeline 后，就推荐把静态资源文件放在 app/assets 文件夹中，并使用 Sprockets 中间件处理这些文件。
+## 静态文件 图片的路径注意
+### 1. app/assets目录下
+     app/assets/images/01.jpg 使用的路径就是 image_tag("01.jpg")
+      app/assets/images/landscape/01.jpg     image_tag("landscape/01.jpg")
+###  2 pubic/images 目录下
+       public/images/01.jpg   对应写法 <img src="images/01.jpg />
+     
