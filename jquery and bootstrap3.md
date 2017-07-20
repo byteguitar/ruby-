@@ -26,7 +26,7 @@ asset pipelineks的理解
 ## 静态文件 图片的路径注意
 ### 1. app/assets目录下
      app/assets/images/01.jpg 使用的路径就是 image_tag("01.jpg")
-      app/assets/images/landscape/01.jpg     image_tag("landscape/01.jpg")
+     app/assets/images/landscape/01.jpg     image_tag("landscape/01.jpg")
 ###  2 pubic/images 目录下
        public/images/01.jpg   对应写法 <img src="images/01.jpg />
      
