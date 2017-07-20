@@ -28,5 +28,6 @@ asset pipelineks的理解
 * app/assets/images/01.jpg       模板写法 image_tag("01.jpg")
 * app/assets/images/landscape/01.jpg     image_tag("landscape/01.jpg")
 ###  2 pubic/images 目录下
-       public/images/01.jpg   对应写法 <img src="images/01.jpg />
+* public/images/01.jpg   对应写法 <img src="/images/01.jpg />   **注意第一个符号/不能少**
+* public/images/landscape/01.jpg   对应写法 <img src="/images/landscape/01.jpg />
      
