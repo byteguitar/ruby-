@@ -25,8 +25,7 @@ asset pipelineks的理解
         当 Rails 开始使用 Asset Pipeline 后，就推荐把静态资源文件放在 app/assets 文件夹中，并使用 Sprockets 中间件处理这些文件。
 ## 静态文件 图片的路径注意
 ### 1. app/assets目录下
-* 
-      ```html
+*     ```ruby
       app/assets/images/01.jpg
       ```       
       模板写法 image_tag("01.jpg")
