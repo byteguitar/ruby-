@@ -10,7 +10,7 @@ rails 5.1.2
       下载jquery
       copy to app/application/javascripts
 ## 修改application/application.js 
-      //= require jquery      `注意这个地方的顺序`
+      //= require jquery    *注意这个地方的顺序，放在后面会出现bootstrap找不到jquery*
       //= require rails-ujs
       //= require turbolinks
       //= require_tree .
@@ -18,3 +18,5 @@ rails 5.1.2
     
 
    
+turbolinks的理解
+=====
