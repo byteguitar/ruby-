@@ -26,7 +26,7 @@ asset pipelineks的理解
 ## 静态文件 图片的路径注意
 ### 1. app/assets目录下
 * 
-      ```ruby
+      ```html
       app/assets/images/01.jpg
       ```       
       模板写法 image_tag("01.jpg")
