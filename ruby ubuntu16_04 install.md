@@ -8,8 +8,7 @@ ubuntu16-04 install ruby rails
 # bundle install 出现问题
        进入生成的站点目录 解决依赖问题bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java
 
-# rails server 出现Could not find a JavaScript runtime的问题
-       
+# rails server 出现Could not find a JavaScript runtime的问题       
        sudo apt-get install python-software-properties
        sudo add-apt-repository ppa:chris-lea/node.js
        sudo apt-get update
