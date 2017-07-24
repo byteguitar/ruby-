@@ -18,3 +18,6 @@ ubuntu16-04 install ruby rails
        sudo add-apt-repository ppa:webupd8team/sublime-text-3
        sudo apt-get update
        sudo apt-get install sublime-text-installer
+#  install mysql2
+       使用mysql2前
+       sudo apt-get install libmysqlclient-dev 
