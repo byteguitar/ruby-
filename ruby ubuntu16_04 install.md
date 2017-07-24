@@ -15,3 +15,7 @@ ubuntu16-04 install ruby rails
        sudo apt-get update
        sudo apt-get install nodejs
        安装一个nodejs就ok了
+#  安装 sublimetext 
+       sudo add-apt-repository ppa:webupd8team/sublime-text-3
+       sudo apt-get update
+       sudo apt-get install sublime-text-installer
